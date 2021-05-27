@@ -1,0 +1,92 @@
+24-May-2021 22:02:17.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+24-May-2021 22:02:17.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+24-May-2021 22:02:17.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+24-May-2021 22:02:17.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-May-2021 22:02:17.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.19.128-microsoft-standard
+24-May-2021 22:02:17.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-May-2021 22:02:17.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-May-2021 22:02:17.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.18.04
+24-May-2021 22:02:17.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-May-2021 22:02:17.441 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46
+24-May-2021 22:02:17.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46
+24-May-2021 22:02:17.460 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2021 22:02:17.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2021 22:02:17.461 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2021 22:02:17.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2021 22:02:17.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2021 22:02:17.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/conf/logging.properties
+24-May-2021 22:02:17.462 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2021 22:02:17.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2021 22:02:17.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2021 22:02:17.463 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-May-2021 22:02:17.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-May-2021 22:02:17.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46
+24-May-2021 22:02:17.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46
+24-May-2021 22:02:17.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/temp
+24-May-2021 22:02:17.473 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/opt/ros/melodic/lib:/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-May-2021 22:02:18.099 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-May-2021 22:02:18.156 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1201] milliseconds
+24-May-2021 22:02:18.269 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-May-2021 22:02:18.269 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+24-May-2021 22:02:18.338 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/docs]
+24-May-2021 22:02:19.434 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/docs] has finished in [1,097] ms
+24-May-2021 22:02:19.437 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/examples]
+24-May-2021 22:02:27.449 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/examples] has finished in [8,012] ms
+24-May-2021 22:02:27.452 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/host-manager]
+24-May-2021 22:02:27.975 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/host-manager] has finished in [524] ms
+24-May-2021 22:02:27.977 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/manager]
+24-May-2021 22:02:28.515 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/manager] has finished in [538] ms
+24-May-2021 22:02:28.519 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/ROOT]
+24-May-2021 22:02:28.963 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/ROOT] has finished in [444] ms
+24-May-2021 22:02:28.977 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-May-2021 22:02:29.005 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10848] milliseconds
+24-May-2021 22:02:50.542 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-May-2021 22:02:50.553 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-May-2021 22:02:50.662 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-May-2021 22:02:50.711 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-May-2021 22:03:26.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+24-May-2021 22:03:26.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+24-May-2021 22:03:26.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+24-May-2021 22:03:26.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-May-2021 22:03:26.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.19.128-microsoft-standard
+24-May-2021 22:03:26.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-May-2021 22:03:26.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+24-May-2021 22:03:26.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.11+9-Ubuntu-0ubuntu2.18.04
+24-May-2021 22:03:26.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+24-May-2021 22:03:26.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46
+24-May-2021 22:03:26.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46
+24-May-2021 22:03:26.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-May-2021 22:03:26.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-May-2021 22:03:26.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-May-2021 22:03:26.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-May-2021 22:03:26.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-May-2021 22:03:26.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/conf/logging.properties
+24-May-2021 22:03:26.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-May-2021 22:03:26.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-May-2021 22:03:26.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-May-2021 22:03:26.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-May-2021 22:03:26.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-May-2021 22:03:26.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46
+24-May-2021 22:03:26.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46
+24-May-2021 22:03:26.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/temp
+24-May-2021 22:03:26.715 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/opt/ros/melodic/lib:/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+24-May-2021 22:03:27.346 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-May-2021 22:03:27.389 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1175] milliseconds
+24-May-2021 22:03:27.507 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-May-2021 22:03:27.508 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+24-May-2021 22:03:27.565 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/docs]
+24-May-2021 22:03:28.581 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/docs] has finished in [1,016] ms
+24-May-2021 22:03:28.583 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/examples]
+24-May-2021 22:03:36.518 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/examples] has finished in [7,934] ms
+24-May-2021 22:03:36.520 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/host-manager]
+24-May-2021 22:03:37.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/host-manager] has finished in [487] ms
+24-May-2021 22:03:37.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/manager]
+24-May-2021 22:03:37.514 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/manager] has finished in [505] ms
+24-May-2021 22:03:37.517 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/ROOT]
+24-May-2021 22:03:37.943 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/mnt/c/Users/GagaN/Desktop/Intern Project/POC2/TCserver/apache-tomcat-9.0.46/webapps/ROOT] has finished in [426] ms
+24-May-2021 22:03:37.954 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-May-2021 22:03:37.975 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10585] milliseconds
+24-May-2021 22:04:52.090 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-May-2021 22:04:52.100 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-May-2021 22:04:52.184 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-May-2021 22:04:52.203 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
