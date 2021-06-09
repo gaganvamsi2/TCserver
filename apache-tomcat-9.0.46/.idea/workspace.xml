@@ -1,13 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f37d04b4-5c74-4e59-8254-7ab7ac681b91" name="Default Changelist" comment="" />
+    <list default="true" id="f37d04b4-5c74-4e59-8254-7ab7ac681b91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ojdbc.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ojdbc8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ons.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/oraclepki.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/orai18n.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/osdt_cert.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/osdt_core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/simplefan.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ucp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/xdb6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/catalina.2021-05-31.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/host-manager.2021-05-31.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/localhost.2021-05-31.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/localhost_access_log.2021-05-31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/manager.2021-05-31.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapps/app/WEB-INF/lib/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapps/app/WEB-INF/lib/ojdbc.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapps/app/WEB-INF/lib/ojdbc8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapps/app/WEB-INF/lib/ons.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapps/app/WEB-INF/lib/oraclepki.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapps/app/WEB-INF/lib/orai18n.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapps/app/WEB-INF/lib/osdt_cert.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapps/app/WEB-INF/lib/osdt_core.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapps/app/WEB-INF/lib/simplefan.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapps/app/WEB-INF/lib/ucp.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webapps/app/WEB-INF/lib/xdb6.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapps/app/WEB-INF/classes/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/webapps/app/WEB-INF/classes/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webapps/app/WEB-INF/classes/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/webapps/app/WEB-INF/classes/HelloServlet.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1t0wtv0I5zLpP4GEmN3n0QCvXBQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

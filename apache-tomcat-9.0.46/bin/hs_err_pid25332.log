@@ -1,0 +1,202 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 268435456 bytes for Failed to commit area from 0x0000000701a00000 to 0x0000000711a00000 of length 268435456.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (t:/workspace/open/src/hotspot/os/windows/os_windows.cpp:3254), pid=25332, tid=32268
+#
+# JRE version:  (12.0.1+12) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (12.0.1+12, mixed mode, aot, sharing, tiered, compressed oops, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Djava.util.logging.config.file=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dignore.endorsed.dirs= -Dcatalina.base=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46 -Dcatalina.home=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46 -Djava.io.tmpdir=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\temp org.apache.catalina.startup.Bootstrap start
+
+Host: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, 8 cores, 15G,  Windows 10 , 64 bit Build 19041 (10.0.19041.928)
+Time: Tue Jun  8 13:31:34 2021 India Standard Time elapsed time: 0 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000002353f154000):  JavaThread "Unknown thread" [_thread_in_vm, id=32268, stack(0x000000c757700000,0x000000c757800000)]
+
+Stack: [0x000000c757700000,0x000000c757800000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x63948a]
+V  [jvm.dll+0x78b31f]
+V  [jvm.dll+0x78c9c1]
+V  [jvm.dll+0x78d013]
+V  [jvm.dll+0x262138]
+V  [jvm.dll+0x63698a]
+V  [jvm.dll+0x62b505]
+V  [jvm.dll+0x31d9bc]
+V  [jvm.dll+0x31d7ef]
+V  [jvm.dll+0x323526]
+V  [jvm.dll+0x370f76]
+V  [jvm.dll+0x370750]
+V  [jvm.dll+0x2f786a]
+V  [jvm.dll+0x2f8af2]
+V  [jvm.dll+0x7657b7]
+V  [jvm.dll+0x766e95]
+V  [jvm.dll+0x37f089]
+V  [jvm.dll+0x749b14]
+V  [jvm.dll+0x3ee48d]
+V  [jvm.dll+0x3f03c1]
+C  [jli.dll+0x51cf]
+C  [ucrtbase.dll+0x21bb2]
+C  [KERNEL32.DLL+0x17034]
+C  [ntdll.dll+0x52651]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x00007ffb828048e8, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x000002353f1b7800 GCTaskThread "GC Thread#0" [stack: 0x000000c757800000,0x000000c757900000] [id=34840]
+  0x000002353f1d1000 ConcurrentGCThread "G1 Main Marker" [stack: 0x000000c757900000,0x000000c757a00000] [id=28716]
+  0x000002353f1d3800 ConcurrentGCThread "G1 Conc#0" [stack: 0x000000c757a00000,0x000000c757b00000] [id=37468]
+
+[error occurred during error reporting (printing all threads), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffb82037a37]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x000002353f14ff50] Heap_lock - owner thread: 0x000002353f154000
+
+Heap address: 0x0000000701a00000, size: 4070 MB, Compressed Oops mode: Non-zero based: 0x0000000701a00000
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+0x00007ff645c40000 - 0x00007ff645c4f000 	C:\Program Files\Java\jdk-12.0.1\bin\java.exe
+0x00007ffbdf550000 - 0x00007ffbdf745000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffbddaf0000 - 0x00007ffbddbad000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffbdd210000 - 0x00007ffbdd4d8000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffbdcd40000 - 0x00007ffbdce40000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffbcb740000 - 0x00007ffbcb756000 	C:\Program Files\Java\jdk-12.0.1\bin\VCRUNTIME140.dll
+0x00007ffbcb760000 - 0x00007ffbcb778000 	C:\Program Files\Java\jdk-12.0.1\bin\jli.dll
+0x00007ffbdd7f0000 - 0x00007ffbdd89c000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffbde680000 - 0x00007ffbde71e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffbdd8a0000 - 0x00007ffbdd93b000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffbdd5b0000 - 0x00007ffbdd6db000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffbddc40000 - 0x00007ffbddde0000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffbdd4e0000 - 0x00007ffbdd502000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffbc31c0000 - 0x00007ffbc345a000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.844_none_ca00b6081b84eb1d\COMCTL32.dll
+0x00007ffbddde0000 - 0x00007ffbdde0a000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffbdcf50000 - 0x00007ffbdd05b000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffbdd510000 - 0x00007ffbdd5ad000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffbd5ae0000 - 0x00007ffbd5aea000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffbdd9b0000 - 0x00007ffbdd9e0000 	C:\WINDOWS\System32\IMM32.DLL
+0x00007ffb68010000 - 0x00007ffb680b4000 	C:\Program Files\McAfee\Endpoint Security\Threat Prevention\Ips\EpMPApi.dll
+0x00007ffbdcec0000 - 0x00007ffbdcf20000 	C:\WINDOWS\System32\WINTRUST.dll
+0x00007ffbdd060000 - 0x00007ffbdd1bf000 	C:\WINDOWS\System32\CRYPT32.dll
+0x00007ffbdc880000 - 0x00007ffbdc892000 	C:\WINDOWS\SYSTEM32\MSASN1.dll
+0x0000000061700000 - 0x000000006170c000 	C:\Program Files\McAfee\Endpoint Security\Threat Prevention\Ips\EpMPThe.dll
+0x00007ffbb7d00000 - 0x00007ffbb7d58000 	C:\Program Files\McAfee\Endpoint Security\Threat Prevention\Ips\HIPHandlers64.dll
+0x00007ffbdd790000 - 0x00007ffbdd7e5000 	C:\WINDOWS\System32\SHLWAPI.dll
+0x00007ffbdab70000 - 0x00007ffbdad54000 	C:\WINDOWS\SYSTEM32\dbghelp.dll
+0x00007ffb9a0e0000 - 0x00007ffb9a18a000 	C:\Program Files\Java\jdk-12.0.1\bin\msvcp140.dll
+0x00007ffb81d30000 - 0x00007ffb828a4000 	C:\Program Files\Java\jdk-12.0.1\bin\server\jvm.dll
+0x00007ffbde820000 - 0x00007ffbde828000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffbcc2d0000 - 0x00007ffbcc2d9000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffbdd940000 - 0x00007ffbdd9ab000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffbc3490000 - 0x00007ffbc34b7000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffbdb550000 - 0x00007ffbdb562000 	C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+0x00007ffbca460000 - 0x00007ffbca471000 	C:\Program Files\Java\jdk-12.0.1\bin\verify.dll
+0x00007ffbc3460000 - 0x00007ffbc348c000 	C:\WINDOWS\SYSTEM32\dbgcore.DLL
+0x00007ffbdce40000 - 0x00007ffbdcec0000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffbb52a0000 - 0x00007ffbb52c6000 	C:\Program Files\Java\jdk-12.0.1\bin\java.dll
+0x00007ffbca440000 - 0x00007ffbca457000 	C:\Program Files\Java\jdk-12.0.1\bin\zip.dll
+0x00007ffbd6410000 - 0x00007ffbd641a000 	C:\Program Files\Java\jdk-12.0.1\bin\jimage.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Program Files\Java\jdk-12.0.1\bin;C:\WINDOWS\SYSTEM32;C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.844_none_ca00b6081b84eb1d;C:\Program Files\McAfee\Endpoint Security\Threat Prevention\Ips;C:\Program Files\Java\jdk-12.0.1\bin\server
+
+VM Arguments:
+jvm_args: --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED -Djava.util.logging.config.file=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\conf\logging.properties -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager -Djdk.tls.ephemeralDHKeySize=2048 -Djava.protocol.handler.pkgs=org.apache.catalina.webresources -Dignore.endorsed.dirs= -Dcatalina.base=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46 -Dcatalina.home=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46 -Djava.io.tmpdir=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\temp 
+java_command: org.apache.catalina.startup.Bootstrap start
+java_class_path (initial): C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\bin\bootstrap.jar;C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\bin\tomcat-juli.jar
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 4                                         {product} {ergonomic}
+     uint ConcGCThreads                            = 2                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 8                                         {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 1048576                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 268435456                                 {product} {ergonomic}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 4267704320                                {product} {ergonomic}
+   size_t MinHeapDeltaBytes                        = 1048576                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 5836300                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122910970                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122910970                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+     bool UseCompressedClassPointers               = true                                 {lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                                 {lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk-12.0.1
+JRE_HOME=C:\Program Files\Java\jdk-12.0.1
+CLASSPATH=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\bin\bootstrap.jar;C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\bin\tomcat-juli.jar
+PATH=C:\Users\GagaN\AppData\Local\Programs\Python\Python38;"C:\WINDOWS\SYSTEM32;c:\Program Files\java\jdk\bin";C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-12.0.1;C:\django\webdrivers;C:\MinGW\bin;C:\Users\GagaN\Anaconda3\python.exe;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\GagaN\Anaconda3;C:\Users\GagaN\Anaconda3\Scripts;C:\Users\GagaN\Anaconda3\Library\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\GagaN\Downloads\Programs\apache-ant-1.10.10;C:\Users\GagaN\Downloads\Programs;C:\django\chromedriver.exe;C:\Users\GagaN\AppData\Local\atom\bin;C:\Users\GagaN\AppData\Roaming\npm;C:\Users\GagaN\AppData\Local\Yarn\bin;C:\Users\GagaN\AppData\Local\Microsoft\WindowsApps;C:\Users\GagaN\AppData\Local\GitHubDesktop\bin;C:\Users\GagaN\Anaconda3;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1\bin;;C:\flutter\flutter\bin;C:\Users\GagaN\AppData\Local\Programs\Microsoft VS Code\bin
+USERNAME=GagaN
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10 , 64 bit Build 19041 (10.0.19041.928)
+
+CPU:total 8 (initial active 8) (4 cores per cpu, 2 threads per core) family 6 model 158 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx, fma
+
+Memory: 4k page, system-wide physical 16276M (2249M free)
+TotalPageFile size 46641M (AvailPageFile size 201M)
+current process WorkingSet (physical memory assigned to process): 12M, peak: 12M
+current process commit charge ("private bytes"): 62M, peak: 318M
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (12.0.1+12) for windows-amd64 JRE (12.0.1+12), built on Apr  2 2019 14:02:19 by "mach5one" with MS VC++ 15.5 (VS2017)
+
+END.

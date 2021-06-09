@@ -1,0 +1,553 @@
+03-Jun-2021 11:34:43.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+03-Jun-2021 11:34:43.158 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+03-Jun-2021 11:34:43.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+03-Jun-2021 11:34:43.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Jun-2021 11:34:43.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Jun-2021 11:34:43.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Jun-2021 11:34:43.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-12.0.1
+03-Jun-2021 11:34:43.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           12.0.1+12
+03-Jun-2021 11:34:43.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Jun-2021 11:34:43.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:34:43.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:34:43.200 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Jun-2021 11:34:43.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Jun-2021 11:34:43.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Jun-2021 11:34:43.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Jun-2021 11:34:43.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Jun-2021 11:34:43.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\conf\logging.properties
+03-Jun-2021 11:34:43.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Jun-2021 11:34:43.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Jun-2021 11:34:43.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Jun-2021 11:34:43.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Jun-2021 11:34:43.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:34:43.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:34:43.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\temp
+03-Jun-2021 11:34:43.226 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-12.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\GagaN\AppData\Local\Programs\Python\Python38;"C:\WINDOWS\SYSTEM32;c:\Program Files\java\jdk\bin";C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-12.0.1;C:\django\webdrivers;C:\MinGW\bin;C:\Users\GagaN\Anaconda3\python.exe;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\GagaN\Anaconda3;C:\Users\GagaN\Anaconda3\Scripts;C:\Users\GagaN\Anaconda3\Library\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\GagaN\Downloads\Programs\apache-ant-1.10.10;C:\Users\GagaN\Downloads\Programs;C:\django\chromedriver.exe;C:\Users\GagaN\AppData\Local\atom\bin;C:\Users\GagaN\AppData\Roaming\npm;C:\Users\GagaN\AppData\Local\Yarn\bin;C:\Users\GagaN\AppData\Local\Microsoft\WindowsApps;C:\Users\GagaN\AppData\Local\GitHubDesktop\bin;C:\Users\GagaN\Anaconda3;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1\bin;;C:\flutter\flutter\bin;C:\Users\GagaN\AppData\Local\Programs\Microsoft VS Code\bin;.]
+03-Jun-2021 11:34:43.714 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Jun-2021 11:34:44.427 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1501] milliseconds
+03-Jun-2021 11:34:44.490 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Jun-2021 11:34:44.490 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+03-Jun-2021 11:34:44.507 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app]
+03-Jun-2021 11:34:47.322 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:34:47.991 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [637] milliseconds.
+03-Jun-2021 11:34:48.025 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app] has finished in [3,517] ms
+03-Jun-2021 11:34:48.025 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\docs]
+03-Jun-2021 11:34:50.069 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:34:50.077 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\docs] has finished in [2,051] ms
+03-Jun-2021 11:34:50.077 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\examples]
+03-Jun-2021 11:34:52.798 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:34:52.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\examples] has finished in [2,835] ms
+03-Jun-2021 11:34:52.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\host-manager]
+03-Jun-2021 11:34:54.732 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:34:54.741 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\host-manager] has finished in [1,829] ms
+03-Jun-2021 11:34:54.742 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\manager]
+03-Jun-2021 11:34:56.546 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:34:56.554 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\manager] has finished in [1,813] ms
+03-Jun-2021 11:34:56.554 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\ROOT]
+03-Jun-2021 11:34:58.344 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:34:58.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\ROOT] has finished in [1,797] ms
+03-Jun-2021 11:34:58.359 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Jun-2021 11:34:58.371 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13943] milliseconds
+03-Jun-2021 11:35:38.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+03-Jun-2021 11:35:38.366 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+03-Jun-2021 11:35:38.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+03-Jun-2021 11:35:38.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Jun-2021 11:35:38.367 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Jun-2021 11:35:38.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Jun-2021 11:35:38.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-12.0.1
+03-Jun-2021 11:35:38.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           12.0.1+12
+03-Jun-2021 11:35:38.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Jun-2021 11:35:38.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:35:38.369 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:35:38.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Jun-2021 11:35:38.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Jun-2021 11:35:38.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Jun-2021 11:35:38.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Jun-2021 11:35:38.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Jun-2021 11:35:38.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\conf\logging.properties
+03-Jun-2021 11:35:38.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Jun-2021 11:35:38.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Jun-2021 11:35:38.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Jun-2021 11:35:38.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Jun-2021 11:35:38.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:35:38.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:35:38.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\temp
+03-Jun-2021 11:35:38.413 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-12.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\GagaN\AppData\Local\Programs\Python\Python38;"C:\WINDOWS\SYSTEM32;c:\Program Files\java\jdk\bin";C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-12.0.1;C:\django\webdrivers;C:\MinGW\bin;C:\Users\GagaN\Anaconda3\python.exe;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\GagaN\Anaconda3;C:\Users\GagaN\Anaconda3\Scripts;C:\Users\GagaN\Anaconda3\Library\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\GagaN\Downloads\Programs\apache-ant-1.10.10;C:\Users\GagaN\Downloads\Programs;C:\django\chromedriver.exe;C:\Users\GagaN\AppData\Local\atom\bin;C:\Users\GagaN\AppData\Roaming\npm;C:\Users\GagaN\AppData\Local\Yarn\bin;C:\Users\GagaN\AppData\Local\Microsoft\WindowsApps;C:\Users\GagaN\AppData\Local\GitHubDesktop\bin;C:\Users\GagaN\Anaconda3;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1\bin;;C:\flutter\flutter\bin;C:\Users\GagaN\AppData\Local\Programs\Microsoft VS Code\bin;.]
+03-Jun-2021 11:35:38.944 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Jun-2021 11:35:39.752 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1641] milliseconds
+03-Jun-2021 11:35:39.841 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Jun-2021 11:35:39.841 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+03-Jun-2021 11:35:39.862 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app]
+03-Jun-2021 11:35:42.988 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:35:43.645 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [627] milliseconds.
+03-Jun-2021 11:35:43.679 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app] has finished in [3,816] ms
+03-Jun-2021 11:35:43.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\docs]
+03-Jun-2021 11:35:45.792 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:35:45.799 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\docs] has finished in [2,118] ms
+03-Jun-2021 11:35:45.800 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\examples]
+03-Jun-2021 11:35:48.801 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:35:48.913 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\examples] has finished in [3,114] ms
+03-Jun-2021 11:35:48.914 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\host-manager]
+03-Jun-2021 11:35:50.735 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:35:50.744 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\host-manager] has finished in [1,830] ms
+03-Jun-2021 11:35:50.745 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\manager]
+03-Jun-2021 11:35:52.558 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:35:52.565 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\manager] has finished in [1,820] ms
+03-Jun-2021 11:35:52.566 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\ROOT]
+03-Jun-2021 11:35:54.361 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:35:54.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\ROOT] has finished in [1,801] ms
+03-Jun-2021 11:35:54.374 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Jun-2021 11:35:54.390 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [14636] milliseconds
+03-Jun-2021 11:37:20.568 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Jun-2021 11:37:21.209 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Jun-2021 11:37:21.236 INFO [Thread-3] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [HelloServlet]
+03-Jun-2021 11:37:22.338 INFO [Thread-3] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [HelloServlet]
+03-Jun-2021 11:37:23.430 INFO [Thread-3] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [HelloServlet]
+03-Jun-2021 11:37:23.567 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [app] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Jun-2021 11:37:23.568 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [app] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Jun-2021 11:37:23.572 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.base@12.0.1/sun.nio.ch.SocketDispatcher.read0(Native Method)
+ java.base@12.0.1/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+ java.base@12.0.1/sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:276)
+ java.base@12.0.1/sun.nio.ch.IOUtil.read(IOUtil.java:245)
+ java.base@12.0.1/sun.nio.ch.IOUtil.read(IOUtil.java:223)
+ java.base@12.0.1/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:355)
+ oracle.net.nt.TimeoutSocketChannel.read(TimeoutSocketChannel.java:178)
+ oracle.net.nt.SSLSocketChannel.readFromSocket(SSLSocketChannel.java:558)
+ oracle.net.nt.SSLSocketChannel.fillReadBuffer(SSLSocketChannel.java:326)
+ oracle.net.nt.SSLSocketChannel.fillAndUnwrap(SSLSocketChannel.java:256)
+ oracle.net.nt.SSLSocketChannel.read(SSLSocketChannel.java:107)
+ oracle.net.ns.NSProtocolNIO.doSocketRead(NSProtocolNIO.java:544)
+ oracle.net.ns.NIOPacket.readNIOPacket(NIOPacket.java:355)
+ oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:124)
+ oracle.net.ns.NSProtocol.connect(NSProtocol.java:318)
+ oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1481)
+ oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:540)
+ oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:782)
+ oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:39)
+ oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:704)
+ oracle.jdbc.pool.OracleDataSource.getPhysicalConnection(OracleDataSource.java:390)
+ oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:279)
+ oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:202)
+ oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:180)
+ HelloServlet.doPost(HelloServlet.java:74)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.base@12.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.base@12.0.1/java.lang.Thread.run(Thread.java:835)]
+03-Jun-2021 11:37:23.573 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12.0.1/java.lang.Object.wait(Native Method)
+ java.base@12.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@12.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@12.0.1/java.lang.Thread.run(Thread.java:835)
+03-Jun-2021 11:37:23.574 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12.0.1/java.lang.Object.wait(Native Method)
+ java.base@12.0.1/java.lang.Object.wait(Object.java:326)
+ java.base@12.0.1/java.util.TimerThread.mainLoop(Timer.java:527)
+ java.base@12.0.1/java.util.TimerThread.run(Timer.java:506)
+03-Jun-2021 11:37:23.628 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Jun-2021 11:37:23.684 INFO [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [oracle.security.pki.OracleSSOKeyStoreSpi]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [oracle.security.pki.OracleSSOKeyStoreSpi]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1384)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1372)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1225)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1187)
+		at java.base/java.security.Provider$Service.getImplClass(Provider.java:1844)
+		at java.base/java.security.Provider$Service.newInstance(Provider.java:1818)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:236)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:218)
+		at java.base/java.security.Security.getImpl(Security.java:729)
+		at java.base/java.security.KeyStore.getInstance(KeyStore.java:964)
+		at oracle.net.nt.CustomSSLSocketFactory.getKeyStoreInstance(CustomSSLSocketFactory.java:776)
+		at oracle.net.nt.CustomSSLSocketFactory.loadKeyStore(CustomSSLSocketFactory.java:899)
+		at oracle.net.nt.CustomSSLSocketFactory.getKeyManagerArray(CustomSSLSocketFactory.java:608)
+		at oracle.net.nt.CustomSSLSocketFactory.createSSLContext(CustomSSLSocketFactory.java:322)
+		at oracle.net.nt.CustomSSLSocketFactory.getSSLContext(CustomSSLSocketFactory.java:305)
+		at oracle.net.nt.CustomSSLSocketFactory.getSSLSocketEngine(CustomSSLSocketFactory.java:271)
+		at oracle.net.nt.TcpsNTAdapter.connect(TcpsNTAdapter.java:170)
+		at oracle.net.nt.ConnOption.connect(ConnOption.java:172)
+		at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:508)
+		at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:521)
+		at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:660)
+		at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:227)
+		at oracle.net.ns.NSProtocol.connect(NSProtocol.java:318)
+		at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1481)
+		at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:540)
+		at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:782)
+		at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:39)
+		at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:704)
+		at oracle.jdbc.pool.OracleDataSource.getPhysicalConnection(OracleDataSource.java:390)
+		at oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:279)
+		at oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:202)
+		at oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:180)
+		at HelloServlet.doPost(HelloServlet.java:74)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+03-Jun-2021 11:37:23.690 INFO [http-nio-8080-exec-1] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [oracle.net.ns.Message]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [oracle.net.ns.Message]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1384)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1372)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1225)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1187)
+		at oracle.net.nt.CustomSSLSocketFactory.getKeyManagerArray(CustomSSLSocketFactory.java:617)
+		at oracle.net.nt.CustomSSLSocketFactory.createSSLContext(CustomSSLSocketFactory.java:322)
+		at oracle.net.nt.CustomSSLSocketFactory.getSSLContext(CustomSSLSocketFactory.java:305)
+		at oracle.net.nt.CustomSSLSocketFactory.getSSLSocketEngine(CustomSSLSocketFactory.java:271)
+		at oracle.net.nt.TcpsNTAdapter.connect(TcpsNTAdapter.java:170)
+		at oracle.net.nt.ConnOption.connect(ConnOption.java:172)
+		at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:508)
+		at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:521)
+		at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:660)
+		at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:227)
+		at oracle.net.ns.NSProtocol.connect(NSProtocol.java:318)
+		at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1481)
+		at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:540)
+		at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:782)
+		at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:39)
+		at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:704)
+		at oracle.jdbc.pool.OracleDataSource.getPhysicalConnection(OracleDataSource.java:390)
+		at oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:279)
+		at oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:202)
+		at oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:180)
+		at HelloServlet.doPost(HelloServlet.java:74)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+03-Jun-2021 11:37:23.713 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Jun-2021 11:38:48.322 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+03-Jun-2021 11:38:48.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+03-Jun-2021 11:38:48.326 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+03-Jun-2021 11:38:48.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Jun-2021 11:38:48.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Jun-2021 11:38:48.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Jun-2021 11:38:48.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-12.0.1
+03-Jun-2021 11:38:48.327 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           12.0.1+12
+03-Jun-2021 11:38:48.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Jun-2021 11:38:48.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:38:48.328 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:38:48.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Jun-2021 11:38:48.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Jun-2021 11:38:48.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Jun-2021 11:38:48.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Jun-2021 11:38:48.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Jun-2021 11:38:48.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\conf\logging.properties
+03-Jun-2021 11:38:48.347 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Jun-2021 11:38:48.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Jun-2021 11:38:48.353 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Jun-2021 11:38:48.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Jun-2021 11:38:48.355 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:38:48.356 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:38:48.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\temp
+03-Jun-2021 11:38:48.375 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-12.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\GagaN\AppData\Local\Programs\Python\Python38;"C:\WINDOWS\SYSTEM32;c:\Program Files\java\jdk\bin";C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-12.0.1;C:\django\webdrivers;C:\MinGW\bin;C:\Users\GagaN\Anaconda3\python.exe;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\GagaN\Anaconda3;C:\Users\GagaN\Anaconda3\Scripts;C:\Users\GagaN\Anaconda3\Library\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\GagaN\Downloads\Programs\apache-ant-1.10.10;C:\Users\GagaN\Downloads\Programs;C:\django\chromedriver.exe;C:\Users\GagaN\AppData\Local\atom\bin;C:\Users\GagaN\AppData\Roaming\npm;C:\Users\GagaN\AppData\Local\Yarn\bin;C:\Users\GagaN\AppData\Local\Microsoft\WindowsApps;C:\Users\GagaN\AppData\Local\GitHubDesktop\bin;C:\Users\GagaN\Anaconda3;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1\bin;;C:\flutter\flutter\bin;C:\Users\GagaN\AppData\Local\Programs\Microsoft VS Code\bin;.]
+03-Jun-2021 11:38:48.847 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Jun-2021 11:38:49.553 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1456] milliseconds
+03-Jun-2021 11:38:49.608 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Jun-2021 11:38:49.608 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+03-Jun-2021 11:38:49.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app]
+03-Jun-2021 11:38:52.396 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:38:53.048 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [627] milliseconds.
+03-Jun-2021 11:38:53.075 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app] has finished in [3,451] ms
+03-Jun-2021 11:38:53.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\docs]
+03-Jun-2021 11:38:55.160 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:38:55.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\docs] has finished in [2,092] ms
+03-Jun-2021 11:38:55.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\examples]
+03-Jun-2021 11:38:57.928 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:38:58.044 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\examples] has finished in [2,875] ms
+03-Jun-2021 11:38:58.045 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\host-manager]
+03-Jun-2021 11:38:59.863 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:38:59.871 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\host-manager] has finished in [1,826] ms
+03-Jun-2021 11:38:59.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\manager]
+03-Jun-2021 11:39:01.679 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:39:01.686 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\manager] has finished in [1,814] ms
+03-Jun-2021 11:39:01.687 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\ROOT]
+03-Jun-2021 11:39:03.514 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:39:03.521 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\ROOT] has finished in [1,835] ms
+03-Jun-2021 11:39:03.529 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Jun-2021 11:39:03.540 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13986] milliseconds
+03-Jun-2021 11:40:15.994 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+03-Jun-2021 11:40:16.636 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Jun-2021 11:40:16.663 INFO [Thread-3] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [HelloServlet]
+03-Jun-2021 11:40:17.744 INFO [Thread-3] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [HelloServlet]
+03-Jun-2021 11:40:18.838 INFO [Thread-3] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [HelloServlet]
+03-Jun-2021 11:40:18.975 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [app] registered the JDBC driver [oracle.jdbc.OracleDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Jun-2021 11:40:18.976 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [app] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+03-Jun-2021 11:40:18.980 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.base@12.0.1/java.lang.Thread.sleep(Native Method)
+ oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:555)
+ oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:521)
+ oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:660)
+ oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:227)
+ oracle.net.ns.NSProtocol.connect(NSProtocol.java:318)
+ oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1481)
+ oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:540)
+ oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:782)
+ oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:39)
+ oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:704)
+ oracle.jdbc.pool.OracleDataSource.getPhysicalConnection(OracleDataSource.java:390)
+ oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:279)
+ oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:202)
+ oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:180)
+ HelloServlet.doPost(HelloServlet.java:75)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.base@12.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.base@12.0.1/java.lang.Thread.run(Thread.java:835)]
+03-Jun-2021 11:40:18.981 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12.0.1/java.lang.Object.wait(Native Method)
+ java.base@12.0.1/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@12.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+ java.base@12.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@12.0.1/java.lang.Thread.run(Thread.java:835)
+03-Jun-2021 11:40:18.982 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [app] appears to have started a thread named [Timer-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@12.0.1/java.lang.Object.wait(Native Method)
+ java.base@12.0.1/java.lang.Object.wait(Object.java:326)
+ java.base@12.0.1/java.util.TimerThread.mainLoop(Timer.java:527)
+ java.base@12.0.1/java.util.TimerThread.run(Timer.java:506)
+03-Jun-2021 11:40:19.035 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+03-Jun-2021 11:40:19.046 INFO [http-nio-8080-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [oracle.security.pki.OracleSSOKeyStoreSpi]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [oracle.security.pki.OracleSSOKeyStoreSpi]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1384)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1372)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1225)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1187)
+		at java.base/java.security.Provider$Service.getImplClass(Provider.java:1844)
+		at java.base/java.security.Provider$Service.newInstance(Provider.java:1818)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:236)
+		at java.base/sun.security.jca.GetInstance.getInstance(GetInstance.java:218)
+		at java.base/java.security.Security.getImpl(Security.java:729)
+		at java.base/java.security.KeyStore.getInstance(KeyStore.java:964)
+		at oracle.net.nt.CustomSSLSocketFactory.getKeyStoreInstance(CustomSSLSocketFactory.java:776)
+		at oracle.net.nt.CustomSSLSocketFactory.loadKeyStore(CustomSSLSocketFactory.java:899)
+		at oracle.net.nt.CustomSSLSocketFactory.getKeyManagerArray(CustomSSLSocketFactory.java:608)
+		at oracle.net.nt.CustomSSLSocketFactory.createSSLContext(CustomSSLSocketFactory.java:322)
+		at oracle.net.nt.CustomSSLSocketFactory.getSSLContext(CustomSSLSocketFactory.java:305)
+		at oracle.net.nt.CustomSSLSocketFactory.getSSLSocketEngine(CustomSSLSocketFactory.java:271)
+		at oracle.net.nt.TcpsNTAdapter.connect(TcpsNTAdapter.java:170)
+		at oracle.net.nt.ConnOption.connect(ConnOption.java:172)
+		at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:508)
+		at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:521)
+		at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:660)
+		at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:227)
+		at oracle.net.ns.NSProtocol.connect(NSProtocol.java:318)
+		at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1481)
+		at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:540)
+		at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:782)
+		at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:39)
+		at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:704)
+		at oracle.jdbc.pool.OracleDataSource.getPhysicalConnection(OracleDataSource.java:390)
+		at oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:279)
+		at oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:202)
+		at oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:180)
+		at HelloServlet.doPost(HelloServlet.java:75)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+03-Jun-2021 11:40:19.050 INFO [http-nio-8080-exec-2] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [oracle.net.ns.Message]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [oracle.net.ns.Message]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1384)
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1372)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1225)
+		at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1187)
+		at oracle.net.nt.CustomSSLSocketFactory.getKeyManagerArray(CustomSSLSocketFactory.java:617)
+		at oracle.net.nt.CustomSSLSocketFactory.createSSLContext(CustomSSLSocketFactory.java:322)
+		at oracle.net.nt.CustomSSLSocketFactory.getSSLContext(CustomSSLSocketFactory.java:305)
+		at oracle.net.nt.CustomSSLSocketFactory.getSSLSocketEngine(CustomSSLSocketFactory.java:271)
+		at oracle.net.nt.TcpsNTAdapter.connect(TcpsNTAdapter.java:170)
+		at oracle.net.nt.ConnOption.connect(ConnOption.java:172)
+		at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:508)
+		at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:521)
+		at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:660)
+		at oracle.net.ns.NSProtocolNIO.negotiateConnection(NSProtocolNIO.java:227)
+		at oracle.net.ns.NSProtocol.connect(NSProtocol.java:318)
+		at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1481)
+		at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:540)
+		at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:782)
+		at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:39)
+		at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:704)
+		at oracle.jdbc.pool.OracleDataSource.getPhysicalConnection(OracleDataSource.java:390)
+		at oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:279)
+		at oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:202)
+		at oracle.jdbc.pool.OracleDataSource.getConnection(OracleDataSource.java:180)
+		at HelloServlet.doPost(HelloServlet.java:75)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:835)
+03-Jun-2021 11:40:19.070 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+03-Jun-2021 11:43:05.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+03-Jun-2021 11:43:05.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+03-Jun-2021 11:43:05.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+03-Jun-2021 11:43:05.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+03-Jun-2021 11:43:05.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+03-Jun-2021 11:43:05.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+03-Jun-2021 11:43:05.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-12.0.1
+03-Jun-2021 11:43:05.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           12.0.1+12
+03-Jun-2021 11:43:05.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+03-Jun-2021 11:43:05.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:43:05.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:43:05.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+03-Jun-2021 11:43:05.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+03-Jun-2021 11:43:05.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+03-Jun-2021 11:43:05.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+03-Jun-2021 11:43:05.810 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+03-Jun-2021 11:43:05.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\conf\logging.properties
+03-Jun-2021 11:43:05.812 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+03-Jun-2021 11:43:05.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+03-Jun-2021 11:43:05.813 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+03-Jun-2021 11:43:05.814 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+03-Jun-2021 11:43:05.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:43:05.815 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+03-Jun-2021 11:43:05.816 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\temp
+03-Jun-2021 11:43:05.833 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-12.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\GagaN\AppData\Local\Programs\Python\Python38;"C:\WINDOWS\SYSTEM32;c:\Program Files\java\jdk\bin";C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-12.0.1;C:\django\webdrivers;C:\MinGW\bin;C:\Users\GagaN\Anaconda3\python.exe;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\GagaN\Anaconda3;C:\Users\GagaN\Anaconda3\Scripts;C:\Users\GagaN\Anaconda3\Library\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\GagaN\Downloads\Programs\apache-ant-1.10.10;C:\Users\GagaN\Downloads\Programs;C:\django\chromedriver.exe;C:\Users\GagaN\AppData\Local\atom\bin;C:\Users\GagaN\AppData\Roaming\npm;C:\Users\GagaN\AppData\Local\Yarn\bin;C:\Users\GagaN\AppData\Local\Microsoft\WindowsApps;C:\Users\GagaN\AppData\Local\GitHubDesktop\bin;C:\Users\GagaN\Anaconda3;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1\bin;;C:\flutter\flutter\bin;C:\Users\GagaN\AppData\Local\Programs\Microsoft VS Code\bin;.]
+03-Jun-2021 11:43:06.303 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+03-Jun-2021 11:43:07.009 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1453] milliseconds
+03-Jun-2021 11:43:07.060 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+03-Jun-2021 11:43:07.060 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+03-Jun-2021 11:43:07.076 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app]
+03-Jun-2021 11:43:09.829 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:43:10.486 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [630] milliseconds.
+03-Jun-2021 11:43:10.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app] has finished in [3,435] ms
+03-Jun-2021 11:43:10.512 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\docs]
+03-Jun-2021 11:43:12.541 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:43:12.551 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\docs] has finished in [2,039] ms
+03-Jun-2021 11:43:12.552 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\examples]
+03-Jun-2021 11:43:15.227 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:43:15.364 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\examples] has finished in [2,811] ms
+03-Jun-2021 11:43:15.365 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\host-manager]
+03-Jun-2021 11:43:17.182 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:43:17.190 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\host-manager] has finished in [1,826] ms
+03-Jun-2021 11:43:17.191 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\manager]
+03-Jun-2021 11:43:18.992 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:43:18.999 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\manager] has finished in [1,807] ms
+03-Jun-2021 11:43:18.999 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\ROOT]
+03-Jun-2021 11:43:20.858 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+03-Jun-2021 11:43:20.864 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\ROOT] has finished in [1,865] ms
+03-Jun-2021 11:43:20.872 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+03-Jun-2021 11:43:20.885 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [13875] milliseconds
