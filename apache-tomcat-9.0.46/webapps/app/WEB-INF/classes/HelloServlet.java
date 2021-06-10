@@ -72,6 +72,7 @@ public class HelloServlet extends HttpServlet {
                 ods.setUser(DB_USER);
                 ods.setPassword(DB_PASSWORD);
                 Connection conn = ods.getConnection();
+                System.out.println("Connection Successfull ............");
                
                 //get the query from the body of the reque
                 if(issql){
