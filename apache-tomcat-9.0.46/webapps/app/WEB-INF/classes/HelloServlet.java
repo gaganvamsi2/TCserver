@@ -52,7 +52,9 @@ public class HelloServlet extends HttpServlet {
             else {
                 // retrieve the auth details to connect to database
                 final String authorization = request.getHeader("Authorization");
-               // String DB_URL="jdbc:oracle:thin:@"+database.toLowerCase()+"_medium?TNS_ADMIN=C:\\Users\\GagaN\\Desktop\\Intern Project\\POC2\\TCserver\\apache-tomcat-9.0.46\\webapps\\app\\WEB-INF\\wallets\\"+database;
+                // For WINDOWS OS
+                // String DB_URL="jdbc:oracle:thin:@"+database.toLowerCase()+"_medium?TNS_ADMIN=C:\\Users\\GagaN\\Desktop\\Intern Project\\POC2\\TCserver\\apache-tomcat-9.0.46\\webapps\\app\\WEB-INF\\wallets\\"+database;
+                // For LINUX OS 
                 String DB_URL="jdbc:oracle:thin:@"+database.toLowerCase()+"_medium?TNS_ADMIN=/usr/local/tomcat/webapps/ords/WEB-INF/wallets/"+database;
                
                 // System.out.println(DB_URL);
@@ -161,42 +163,7 @@ public class HelloServlet extends HttpServlet {
                     out.print(obj);
                     out.flush();
                     conn.close();
-                }
-
-                
-               
-                /////////////Database Connection///////////////////////////
-
-                // String CONN_FACTORY_CLASS_NAME="oracle.jdbc.pool.OracleDataSource";
-                // PoolDataSource pds = PoolDataSourceFactory.getPoolDataSource();
-                // pds.setConnectionFactoryClassName(CONN_FACTORY_CLASS_NAME);
-                // pds.setConnectionPoolName("mgr_pool");
-                // pds.setURL(DB_URL);
-                // pds.setUser(DB_USER);
-                // pds.setPassword(DB_PASSWORD);
-                // pds.setConnectionPoolName("JDBC_UCP_POOL");
-                // pds.setInitialPoolSize(5);
-                // pds.setMinPoolSize(5);
-                // pds.setMaxPoolSize(20);
-                // pds.setTimeoutCheckInterval(0);
-                // pds.setInactiveConnectionTimeout(1);
-                // Connection conn = pds.getConnection();
-               
-
-               
-
-                // Step 1: Allocate a database 'Connection' object
-               // Class.forName("com.mysql.jdbc.Driver");
-               // Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);   // For MySQL
-                // Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/" + database, user, pass);   // For MySQL
-                // The format is: "jdbc:mysql://hostname:port/databaseName", "username", "password"
-                // Step 2: Allocate a 'Statement' object in the Connection
-
-
-
-               
-                
-                
+                }                
             }
         } catch(Exception ex) {
            // response.sendError(response.SC_BAD_REQUEST,ex.getMessage() );
@@ -211,9 +178,6 @@ public class HelloServlet extends HttpServlet {
             catch(Exception exception) {
                 System.out.println("Error: " + exception.getMessage());
             }
-            //System.out.println("<p>Error: " + ex.getMessage() + "</p>");
-            // System.out.println("<p>Check Tomcat console for details.</p>");
-            // ex.printStackTrace();
         }
         System.out.println("Servlet is called");
         out.close();
