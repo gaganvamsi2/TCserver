@@ -1,0 +1,168 @@
+21-Jun-2021 14:18:25.560 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+21-Jun-2021 14:18:25.564 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+21-Jun-2021 14:18:25.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+21-Jun-2021 14:18:25.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-Jun-2021 14:18:25.565 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-Jun-2021 14:18:25.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Jun-2021 14:18:25.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-12.0.1
+21-Jun-2021 14:18:25.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           12.0.1+12
+21-Jun-2021 14:18:25.566 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Jun-2021 14:18:25.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:18:25.567 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:18:25.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Jun-2021 14:18:25.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Jun-2021 14:18:25.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Jun-2021 14:18:25.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Jun-2021 14:18:25.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Jun-2021 14:18:25.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\conf\logging.properties
+21-Jun-2021 14:18:25.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Jun-2021 14:18:25.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Jun-2021 14:18:25.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Jun-2021 14:18:25.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Jun-2021 14:18:25.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:18:25.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:18:25.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\temp
+21-Jun-2021 14:18:25.667 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-12.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\GagaN\AppData\Local\Programs\Python\Python38;"C:\WINDOWS\SYSTEM32;c:\Program Files\java\jdk\bin";C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-12.0.1;C:\django\webdrivers;C:\MinGW\bin;C:\Users\GagaN\Anaconda3\python.exe;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\GagaN\Anaconda3;C:\Users\GagaN\Anaconda3\Scripts;C:\Users\GagaN\Anaconda3\Library\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\GagaN\Downloads\Programs\apache-ant-1.10.10;C:\Users\GagaN\Downloads\Programs;C:\django\chromedriver.exe;C:\Users\GagaN\AppData\Local\atom\bin;C:\Users\GagaN\AppData\Roaming\npm;C:\Users\GagaN\AppData\Local\Yarn\bin;C:\Users\GagaN\AppData\Local\Microsoft\WindowsApps;C:\Users\GagaN\AppData\Local\GitHubDesktop\bin;C:\Users\GagaN\Anaconda3;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1\bin;;C:\flutter\flutter\bin;C:\Users\GagaN\AppData\Local\Programs\Microsoft VS Code\bin;.]
+21-Jun-2021 14:18:26.249 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Jun-2021 14:18:29.111 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector[HTTP/1.1-8080]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1049)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1045)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:455)
+		at java.base/sun.nio.ch.Net.bind(Net.java:447)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:219)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:300)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:253)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1204)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1217)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:603)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:80)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1046)
+		... 13 more
+21-Jun-2021 14:18:29.111 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3810] milliseconds
+21-Jun-2021 14:18:29.185 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Jun-2021 14:18:29.185 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+21-Jun-2021 14:18:29.193 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app]
+21-Jun-2021 14:18:32.126 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Jun-2021 14:18:35.062 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,902] milliseconds.
+21-Jun-2021 14:18:35.161 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app] has finished in [5,968] ms
+21-Jun-2021 14:18:35.163 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6051] milliseconds
+21-Jun-2021 14:18:57.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+21-Jun-2021 14:18:57.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+21-Jun-2021 14:18:57.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+21-Jun-2021 14:18:57.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-Jun-2021 14:18:57.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-Jun-2021 14:18:57.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Jun-2021 14:18:57.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-12.0.1
+21-Jun-2021 14:18:57.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           12.0.1+12
+21-Jun-2021 14:18:57.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Jun-2021 14:18:57.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:18:57.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:18:57.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Jun-2021 14:18:57.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Jun-2021 14:18:57.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Jun-2021 14:18:57.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Jun-2021 14:18:57.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Jun-2021 14:18:57.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\conf\logging.properties
+21-Jun-2021 14:18:57.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Jun-2021 14:18:57.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Jun-2021 14:18:57.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Jun-2021 14:18:57.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Jun-2021 14:18:57.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:18:57.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:18:57.939 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\temp
+21-Jun-2021 14:18:57.963 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-12.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\GagaN\AppData\Local\Programs\Python\Python38;"C:\WINDOWS\SYSTEM32;c:\Program Files\java\jdk\bin";C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-12.0.1;C:\django\webdrivers;C:\MinGW\bin;C:\Users\GagaN\Anaconda3\python.exe;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\GagaN\Anaconda3;C:\Users\GagaN\Anaconda3\Scripts;C:\Users\GagaN\Anaconda3\Library\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\GagaN\Downloads\Programs\apache-ant-1.10.10;C:\Users\GagaN\Downloads\Programs;C:\django\chromedriver.exe;C:\Users\GagaN\AppData\Local\atom\bin;C:\Users\GagaN\AppData\Roaming\npm;C:\Users\GagaN\AppData\Local\Yarn\bin;C:\Users\GagaN\AppData\Local\Microsoft\WindowsApps;C:\Users\GagaN\AppData\Local\GitHubDesktop\bin;C:\Users\GagaN\Anaconda3;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1\bin;;C:\flutter\flutter\bin;C:\Users\GagaN\AppData\Local\Programs\Microsoft VS Code\bin;.]
+21-Jun-2021 14:18:58.404 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Jun-2021 14:19:01.212 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [3537] milliseconds
+21-Jun-2021 14:19:01.271 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Jun-2021 14:19:01.271 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+21-Jun-2021 14:19:01.280 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app]
+21-Jun-2021 14:19:03.989 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Jun-2021 14:19:06.831 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,814] milliseconds.
+21-Jun-2021 14:19:06.865 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app] has finished in [5,585] ms
+21-Jun-2021 14:19:06.873 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Jun-2021 14:19:06.892 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5673] milliseconds
+21-Jun-2021 14:45:20.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+21-Jun-2021 14:45:20.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+21-Jun-2021 14:45:20.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+21-Jun-2021 14:45:20.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-Jun-2021 14:45:20.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-Jun-2021 14:45:20.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Jun-2021 14:45:20.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-12.0.1
+21-Jun-2021 14:45:20.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           12.0.1+12
+21-Jun-2021 14:45:20.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Jun-2021 14:45:20.597 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:45:20.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:45:20.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Jun-2021 14:45:20.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Jun-2021 14:45:20.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Jun-2021 14:45:20.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Jun-2021 14:45:20.629 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Jun-2021 14:45:20.630 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\conf\logging.properties
+21-Jun-2021 14:45:20.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Jun-2021 14:45:20.634 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Jun-2021 14:45:20.635 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Jun-2021 14:45:20.636 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Jun-2021 14:45:20.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:45:20.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:45:20.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\temp
+21-Jun-2021 14:45:20.663 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-12.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\GagaN\AppData\Local\Programs\Python\Python38;"C:\WINDOWS\SYSTEM32;c:\Program Files\java\jdk\bin";C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-12.0.1;C:\django\webdrivers;C:\MinGW\bin;C:\Users\GagaN\Anaconda3\python.exe;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\GagaN\Anaconda3;C:\Users\GagaN\Anaconda3\Scripts;C:\Users\GagaN\Anaconda3\Library\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\GagaN\Downloads\Programs\apache-ant-1.10.10;C:\Users\GagaN\Downloads\Programs;C:\django\chromedriver.exe;C:\Users\GagaN\AppData\Local\atom\bin;C:\Users\GagaN\AppData\Roaming\npm;C:\Users\GagaN\AppData\Local\Yarn\bin;C:\Users\GagaN\AppData\Local\Microsoft\WindowsApps;C:\Users\GagaN\AppData\Local\GitHubDesktop\bin;C:\Users\GagaN\Anaconda3;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1\bin;;C:\flutter\flutter\bin;C:\Users\GagaN\AppData\Local\Programs\Microsoft VS Code\bin;.]
+21-Jun-2021 14:45:21.319 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Jun-2021 14:45:24.346 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [4083] milliseconds
+21-Jun-2021 14:45:24.411 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Jun-2021 14:45:24.411 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+21-Jun-2021 14:45:24.428 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app]
+21-Jun-2021 14:45:27.384 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Jun-2021 14:45:30.406 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,991] milliseconds.
+21-Jun-2021 14:45:30.434 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app] has finished in [6,007] ms
+21-Jun-2021 14:45:30.442 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Jun-2021 14:45:30.456 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6109] milliseconds
+21-Jun-2021 14:55:49.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.46
+21-Jun-2021 14:55:49.181 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 8 2021 17:35:52 UTC
+21-Jun-2021 14:55:49.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.46.0
+21-Jun-2021 14:55:49.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+21-Jun-2021 14:55:49.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+21-Jun-2021 14:55:49.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Jun-2021 14:55:49.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-12.0.1
+21-Jun-2021 14:55:49.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           12.0.1+12
+21-Jun-2021 14:55:49.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Jun-2021 14:55:49.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:55:49.184 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:55:49.208 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+21-Jun-2021 14:55:49.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+21-Jun-2021 14:55:49.209 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+21-Jun-2021 14:55:49.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+21-Jun-2021 14:55:49.210 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+21-Jun-2021 14:55:49.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\conf\logging.properties
+21-Jun-2021 14:55:49.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Jun-2021 14:55:49.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Jun-2021 14:55:49.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Jun-2021 14:55:49.214 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+21-Jun-2021 14:55:49.215 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:55:49.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46
+21-Jun-2021 14:55:49.216 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\temp
+21-Jun-2021 14:55:49.238 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-12.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\GagaN\AppData\Local\Programs\Python\Python38;"C:\WINDOWS\SYSTEM32;c:\Program Files\java\jdk\bin";C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\PuTTY\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-12.0.1;C:\django\webdrivers;C:\MinGW\bin;C:\Users\GagaN\Anaconda3\python.exe;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\GagaN\Anaconda3;C:\Users\GagaN\Anaconda3\Scripts;C:\Users\GagaN\Anaconda3\Library\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\GagaN\Downloads\Programs\apache-ant-1.10.10;C:\Users\GagaN\Downloads\Programs;C:\django\chromedriver.exe;C:\Users\GagaN\AppData\Local\atom\bin;C:\Users\GagaN\AppData\Roaming\npm;C:\Users\GagaN\AppData\Local\Yarn\bin;C:\Users\GagaN\AppData\Local\Microsoft\WindowsApps;C:\Users\GagaN\AppData\Local\GitHubDesktop\bin;C:\Users\GagaN\Anaconda3;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1\bin;;C:\flutter\flutter\bin;C:\Users\GagaN\AppData\Local\Programs\Microsoft VS Code\bin;.]
+21-Jun-2021 14:55:49.776 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Jun-2021 14:55:52.974 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [4090] milliseconds
+21-Jun-2021 14:55:53.042 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+21-Jun-2021 14:55:53.043 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.46]
+21-Jun-2021 14:55:53.058 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app]
+21-Jun-2021 14:55:55.983 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+21-Jun-2021 14:55:58.927 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [2,917] milliseconds.
+21-Jun-2021 14:55:58.959 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\GagaN\Desktop\Intern Project\POC2\TCserver\apache-tomcat-9.0.46\webapps\app] has finished in [5,900] ms
+21-Jun-2021 14:55:58.966 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+21-Jun-2021 14:55:58.982 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6006] milliseconds
